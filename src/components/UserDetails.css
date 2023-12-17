@@ -1,0 +1,101 @@
+body{
+    background: rgb(65, 125, 161);
+}
+.twoCard{
+    display: flex;
+}
+.firstcard{
+    margin-left: 2rem;
+    background-color: #D1D4D4;
+    padding: 0.5rem;
+}
+.card{
+    width: 400px;
+    margin-left: 5rem;
+    padding: 0.2rem;
+}
+.round-image {
+    display: block;
+    margin: auto;
+    border-radius: 100%;
+     height: 250px;
+     width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  .comp{
+    background-color: rgb(209, 212, 212);
+    border: 0.1px solid rgb(167, 166, 166);
+    border-radius: 0.4rem;
+  }
+  .userListcard{
+    display: flex;
+    height: 100px;
+    width: 500px;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    background-color: rgb(212, 216, 216);
+  }
+  .img2{
+    width: 100px;
+     border-radius: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  .cardcontent{
+    background-color: rgb(209, 212, 212);
+  }
+  .fullname{
+    border-radius: 0.4rem;
+  }
+  
+
+  /* Media query for tablets */
+   @media (max-width: 768px) {
+    .card{
+        width: 370px;
+        margin-left:0;
+        margin-left: 0.5rem;
+        padding: 0.2rem;
+    }
+    .firstcard{
+        margin-left: 0rem;
+        padding: 0.2rem;
+
+    }
+    .userListcard{
+        display: flex;
+        height: 100px;
+        width: 370px;
+        margin-top: 1rem;
+        margin-right: 1rem;
+        background-color: rgb(119, 122, 122);
+      }
+  }
+   
+/* Media query for mobile devices */
+   @media (max-width: 480px) {
+    .twoCard{
+        display: block;
+        margin-left: 1rem;
+    }
+    .userlist-text{
+        width: 360px;
+    }
+    .firstcard{
+        margin-left: 0rem;
+        background: rgb(65, 125, 161);
+    }
+    .card{
+        width: 370px;
+        margin-left: 0rem;
+        margin-top: 1rem;
+        padding: 0;
+    }
+    .userListcard{
+        
+        display: flex;
+        height: 100px;
+        width: 370px;
+        margin-top: 1rem;
+        margin-right: 0rem;
+      }
+  } 
